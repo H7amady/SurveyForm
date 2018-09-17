@@ -1,0 +1,75 @@
+body {
+    background: #a3c3f7;
+}
+#title {
+    text-align: center;
+    font-size: 3em;
+}
+.main {
+    width: 60%;
+    background: #eeecec;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#name,
+#email,
+#age {
+    width: 250px;
+    height: 18px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.labels {
+    width: 40%;
+    text-align: right;
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 5px;
+}
+.toRight {
+    width: 48%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#dropdown {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.rating,
+input[type="checkbox"] {
+    margin-right: 5px;
+    float: left;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+radio, checkbox {
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+#submit {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    background: #59ace0;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#comments {
+    width: 250px;
+    height: 60px;
+}
